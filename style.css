@@ -1,0 +1,174 @@
+body html{
+    font-size: 18px;
+    max-width: 1024px;
+    align: center;
+    min-width: 800px;
+    
+}
+
+html {
+    text-align: center;
+    max-width: 1024px;
+    min-width: 800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-image: url('./image/fon.png')
+}
+
+
+.info {
+    background: white
+}
+
+.navigation {
+    position: fixed;
+    width: 1024px;
+    max-width: 1024px;
+    background-image: url('./image/navbar.jpg') ;
+    background-size: cover;
+    height: 100px;
+    padding-top: 15px;
+    z-index: 1;
+    
+
+
+}  
+
+.text-menu {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between; 
+}
+
+.text-menu:hover {
+    color: black; 
+}
+
+ .item {
+     color: white;
+     display: inline-block;
+     margin: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 1.5em;
+
+ }
+
+.footer {
+    background: whitesmoke;
+}
+
+.article {
+    font-size: 2em;
+    display: inline-block
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: grey;
+    position: relative;
+    display: inline-block
+    
+}
+
+.name {
+    padding-top: 15 %;
+    color: rgb(35, 161, 192);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    align: center;
+    font-size: 5em;
+    
+}
+
+
+.photo {
+    position: relative;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url('image/photo.jpg');
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.my-resume {
+    height: 250px;
+    font-size: 25px;
+    color: black;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 4%;
+    line-height: 1.5;
+}
+
+.input-text {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 30%;
+    background: lightcyan;
+    width: 400px;
+    height: 20px;
+    border-color: gray;
+}
+
+.Feedback1 {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    color: white;
+    font-size: 35px;
+}
+
+.button-submit {
+    width: 70px;
+    height: 30px;
+    position: relative;
+    margin-left: 50%;
+    top: -45px;
+    background: lightgray;  
+    border-color: gray;  
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.text-send {
+    color: black;
+    font-size: 11px;
+}
+
+.git {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(0, 81, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    padding-top: 20px;
+
+}
+
+.contact {
+padding-top: 20px;
+background-image: url('./image/footer.png');
+background-size: cover;
+height: 100px;
+line-height: 1.5;
+font-size: 18px;
+color: rgb(34, 35, 49);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.clic {
+    color: white;  
+}
+
+.clic:hover {
+    color: black;
+}
